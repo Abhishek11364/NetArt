@@ -1,0 +1,94 @@
+.container {
+  background-color: #fff;
+  padding: 2.5rem;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-width: 2px;
+  border-color: #dc2626;
+  padding-bottom: 1rem;
+}
+
+.logo {
+  height: 8rem;
+}
+
+.title {
+  font-size: 1.875rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.section {
+  margin-top: 1.5rem;
+}
+
+.section-title {
+  font-size: 1rem;
+  color: #141414;
+}
+
+.section-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 1rem;
+}
+
+.column {
+  flex: 1;
+}
+
+.award-image {
+  height: 40rem;
+  width: 550px;
+  margin-right: 20px;
+}
+
+.second-column-image {
+  height: 27rem;
+  width: 800px;
+}
+
+.saving-text {
+  font-size: 1rem;
+}
+
+.product-image {
+  display: block;
+  margin: 0 auto;
+  max-width: 900px;
+  height: auto;
+  max-height: 300px;
+  width: auto;
+  margin-bottom: 1rem;
+}
+
+.centered-text {
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    padding: 1.5rem;
+  }
+
+  .award-image {
+    height: 30rem;
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .second-column-image {
+    height: 20rem;
+    width: 100%;
+  }
+}
